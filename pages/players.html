@@ -49,6 +49,7 @@
             </div>
           </nav>
     </header>
+      <!-- Player cards -->
     <div class="container justify-content-center py-2">
         <h1>Players</h1>
     </div>
@@ -62,12 +63,13 @@
                         <p class="card-text">Goalkeeper</p>
                         <button type="button" class="btn btn-outline-warning view-profile"
                         data-bs-toggle="modal"
-                        data-bs-target="#playerModal"
+                        data-bs-target="#playerModal-13"
                         data-name="Jennifer Falk"
                         data-position="Goalkeeper"
                         data-image="../images/Falk.png">
                         View profile
-                    </button>                    </div>
+                        </button>                    
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 p-3">
@@ -76,7 +78,13 @@
                     <div class="card-body">
                         <h5 class="card-title">Hikaru Kitagawa</h5>
                         <p class="card-text">Defender</p>
-                        <button type="button" class="btn btn-outline-warning">View profile</button> 
+                        <button type="button" class="btn btn-outline-warning"
+                        data-bs-toggle="modal"
+                        data-bs-target="#playerModal-8"
+                        data-name="Hikaru Kitagawa"
+                        data-position="Defender"
+                        data-image="../images/Kitagawa.png">
+                        View profile</button> 
                     </div>
                 </div>
             </div>
@@ -87,7 +95,14 @@
                     <div class="card-body">
                         <h5 class="card-title">Elin Rubensson</h5>
                         <p class="card-text">Midfielder</p>
-                        <button type="button" class="btn btn-outline-warning">View profile</button> 
+                        <button type="button" class="btn btn-outline-warning"
+                        data-bs-toggle="modal"
+                        data-bs-target="#playerModal-23"
+                        data-name="Elin Rubensson"
+                        data-position="Midfielder"
+                        data-image="../images/Rubensson.png">
+                        View profile
+                      </button> 
                     </div>
                 </div>
             </div>
@@ -98,13 +113,22 @@
                     <div class="card-body">
                         <h5 class="card-title">Tabby Tindell</h5>
                         <p class="card-text">Forward</p>
-                        <button type="button" class="btn btn-outline-warning">View profile</button> 
+                        <button type="button" class="btn btn-outline-warning"
+                        data-bs-toggle="modal"
+                        data-bs-target="#playerModal-24"
+                        data-name="Tabby Tindell"
+                        data-position="Forward"
+                        data-image="../images/Tindall.png">
+                        View profile
+                      </button> 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="modal fade" id="playerModal" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
+
+        <!-- Modals -->
+    <div class="modal fade" id="playerModal-13" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content bg-dark text-light">
             <div class="modal-header">
@@ -125,7 +149,7 @@
           </div>
         </div>
       </div>
-      <div class="modal fade" id="playerModal" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
+      <div class="modal fade" id="playerModal-8" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content bg-dark text-light">
             <div class="modal-header">
@@ -146,7 +170,7 @@
           </div>
         </div>
       </div>
-      <div class="modal fade" id="playerModal" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
+      <div class="modal fade" id="playerModal-23" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content bg-dark text-light">
             <div class="modal-header">
@@ -167,7 +191,7 @@
           </div>
         </div>
       </div>
-      <div class="modal fade" id="playerModal" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
+      <div class="modal fade" id="playerModal-24" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content bg-dark text-light">
             <div class="modal-header">
